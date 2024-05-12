@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample HTML Document</title>
+    <style>
+        body {
+            background-color: lightgrey;
+            padding: 20px;
+            margin: 20px;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        a:visited {
+            color: purple;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ordered List of States in Nigeria</h1>
+    <ol>
+        <li>Lagos</li>
+        <li>Abuja</li>
+        <li>Kano</li>
+        <li>Rivers</li>
+        <li>Enugu</li>
+    </ol>
+
+    <h2>Table of African Countries and Capitals</h2>
+    <table>
+        <tr>
+            <th>Country</th>
+            <th>Capital</th>
+        </tr>
+        <tr>
+            <td>Nigeria</td>
+            <td>Abuja</td>
+        </tr>
+        <tr>
+            <td>Kenya</td>
+            <td>Nairobi</td>
+        </tr>
+        <tr>
+            <td>South Africa</td>
+            <td>Pretoria</td>
+        </tr>
+        <tr>
+            <td>Egypt</td>
+            <td>Cairo</td>
+        </tr>
+        <tr>
+            <td>Ghana</td>
+            <td>Accra</td>
+        </tr>
+    </table>
+
+    <a href="https://www.google.com">Google</a>
+    <a href="https://www.facebook.com">Facebook</a>
+</body>
+</html
